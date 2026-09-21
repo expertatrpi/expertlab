@@ -1,0 +1,52 @@
+[
+  {
+    "id": 2,
+    "title": "RPI Space Science and Technology Day, EMPAC-RPI",
+    "description": "RPI Space Science and Technology Day, EMPAC-RPI",
+    "image": "slider/RPI_Space_Science_and_Technology_Day_EMPAC-RPI.jpg",
+    "link": "/",
+    "align": "left",
+    "display_title": false,
+    "index": 0
+  },
+  {
+    "id": 3,
+    "title": "NASA people visit at RP",
+    "description": "ECCE IEEE Energy Conversion Congress & Expo 2024, Phoenix, AZ.",
+    "image": "slider/ECCE_IEEE_Energy_Conversion_Congress__Expo_2024_Phoenix_AZ_Qj4hoHi..jpeg",
+    "link": "/",
+    "align": "right",
+    "display_title": false,
+    "index": 0
+  },
+  {
+    "id": 4,
+    "title": "Dinosaur Bar-B-Que, Troy, NY",
+    "description": "Dinosaur Bar-B-Que, Troy, NY",
+    "image": "slider/Dinosaur_Bar-B-Que_Troy_NY_Qw8BYVL.jpg",
+    "link": "/",
+    "align": "left",
+    "display_title": false,
+    "index": 0
+  },
+  {
+    "id": 5,
+    "title": "NASA Team Lab Tour, RPI",
+    "description": "Mr. and Mrs. Felak visiting our lab",
+    "image": "slider/NASA_Team_Lab_Tour_RPI_bn5OeHc.jpg",
+    "link": "/",
+    "align": "right",
+    "display_title": false,
+    "index": 0
+  },
+  {
+    "id": 6,
+    "title": "NASA Visit July 2024",
+    "description": "NASA Visit July 2024",
+    "image": "slider/NASA_Visit_July_2024_htb0WSI.jpg",
+    "link": "/",
+    "align": "right",
+    "display_title": false,
+    "index": 0
+  }
+]

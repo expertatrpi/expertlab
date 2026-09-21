@@ -1,0 +1,83 @@
+[
+  {
+    "id": 5,
+    "name": "NASA",
+    "logo": "sponsors/NASA.png",
+    "website": "NASA",
+    "description": "NASA",
+    "support_level": "NASA",
+    "index": 1
+  },
+  {
+    "id": 4,
+    "name": "DOE EERE VTO",
+    "logo": "sponsors/DOE_EERE_VTO.png",
+    "website": "DOE EERE VTO",
+    "description": "DOE EERE VTO",
+    "support_level": "basic",
+    "index": 2
+  },
+  {
+    "id": 9,
+    "name": "Naval Nuclear Lab",
+    "logo": "sponsors/Naval_Nuclear_Lab_Uncorrupted.png",
+    "website": "",
+    "description": "",
+    "support_level": null,
+    "index": 2
+  },
+  {
+    "id": 8,
+    "name": "Office of Naval Research",
+    "logo": "sponsors/Office_of_Naval_Research.png",
+    "website": "",
+    "description": "",
+    "support_level": null,
+    "index": 3
+  },
+  {
+    "id": 2,
+    "name": "DOE ARPA-e",
+    "logo": "sponsors/DOE_ARPA-e.jpg",
+    "website": "DOE ARPA-e",
+    "description": "DOE ARPA-e",
+    "support_level": "basic",
+    "index": 4
+  },
+  {
+    "id": 3,
+    "name": "DOE EERE SETO",
+    "logo": "sponsors/DOE_EERE_SETO.png",
+    "website": "DOE EERE SETO",
+    "description": "DOE EERE SETO",
+    "support_level": "DOE EERE SETO",
+    "index": 6
+  },
+  {
+    "id": 6,
+    "name": "RPI",
+    "logo": "sponsors/RPI_JPG.jpg",
+    "website": "",
+    "description": "",
+    "support_level": null,
+    "index": 7
+  },
+  {
+    "id": 7,
+    "name": "The University of Tennessee",
+    "logo": "sponsors/University-HorizLeftLogo-RGB.jpg",
+    "website": "",
+    "description": "",
+    "support_level": null,
+    "index": 8
+  },
+  {
+    "id": 1,
+    "name": "Clemson University",
+    "logo": "sponsors/Clemson_University.png",
+    "website": "Clemson University",
+    "description": "Clemson University",
+    "support_level": "basic",
+    "index": 9
+  }
+]

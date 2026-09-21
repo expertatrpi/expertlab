@@ -1,0 +1,392 @@
+[
+  {
+    "id": 45,
+    "title": "D. Rana, T. Qiu, and Z. Zhang, “In-circuit stress emulation universal reliability platform of GaN HEMTs with online monitoring and offline characterization,” in Proc. IEEE Energy Conversion Congress and Exposition, Oct. 2025.",
+    "publication_date": "2025-12-03",
+    "abstract": "Realistic emulation of application operating conditions and effective degradation tracking are essential for accurate reliability assessment of power semiconductors. For gallium nitride (GaN) high electron mobility transistors (HEMTs), even minor modifications to the gate and power loops-introduced for online monitoring or offline characterization-can significantly alter stress dynamics due to the high sensitivity of circuit par-asitics at fast switching speeds. This paper presents a universal reliability test platform for GaN HEMTs, applicable across a wide range of power electronic applications, that accurately emulates application-level stressors while supporting both online degradation monitoring and a novel offline in-circuit characterization approach. An overview of the test platform is first presented, covering its implementation and control strategy. The normal operation mode is then described alongside the real-time degradation tracking methodology. A circuit-based offline characterization method is subsequently presented, enabling extraction of I-V characteristics directly from the device within its operating circuit without hardware modifications. Finally, the platform is experimentally validated using commercial GaN HEMTs stressed in a synchronous buck converter configuration, confirming its accuracy and practicality for both online monitoring and offline characterization.",
+    "pdf": "publications/A_Universal_Reliability_Platform_for_GaN_HEMTs_with_Realistic_Stress_Emulat_JEg8LXF.pdf",
+    "link": "https://ieeexplore.ieee.org/abstract/document/11260404",
+    "type": "Conference Paper",
+    "research_id": 3
+  },
+  {
+    "id": 47,
+    "title": "T. Qiu, and Z. Zhang, “Ultrafast noise-immune short-circuit detection in gallium nitride power semiconductors via drain-source voltage pattern recognition,” in Proc. IEEE Energy Conversion Congress and Exposition, Oct. 2025.",
+    "publication_date": "2025-12-03",
+    "abstract": "As gallium nitride (GaN) devices prevail in power electronics, the operational safety and reliability attract more attention. Due to the small thermal mass and limited short-circuit (SC) withstand capability, the SC protection for GaN devices is crucial. One widely accepted scheme is desaturation (Desat) protection based on ON-state drain-source voltage ( vds ) information, which, however, faces a design trade-off between response time and noise immunity, leaving its feasibility questionable for GaN applications. This paper proposes a novel SC detection scheme that leverages the pattern difference of the entire vds between normal operation and fault scenarios, in terms of switching, ON- and OFF-states, breaking the compromise and achieving the targets of ultrafast detection with noise immunity. First, the characteristics of fault patterns are investigated, and detection strategy is accordingly discussed to distinguish the fault from normal operation. Then, the capacitor divider design is proposed for capturing the critical vds patterns with noise immunity. Based on the detection strategy, the logic synthesis is formulated to generate the fault flag via digital operation on vds patterns. Finally, circuit simulation and hardware tests are performed for design validation. The ultrafast SC detection time are observed of around 30 − 40 ns, which is actually even smaller excluding the propagation delay of isolators in the measurement.",
+    "pdf": "publications/Ultrafast_Noise-Immune_Short-Circuit_Detection.pdf",
+    "link": "https://ieeexplore.ieee.org/abstract/document/11259985",
+    "type": "Conference Paper",
+    "research_id": 8
+  },
+  {
+    "id": 46,
+    "title": "A. K. Das, and Z. Zhang, “Light-triggered, ultrafast gate driver empowered by GaN buffer for high power SiC module,” in Proc. IEEE Energy Conversion Congress and Exposition, Oct. 2025.",
+    "publication_date": "2025-10-23",
+    "abstract": "Owing to their inherent isolation and high noise-immunity, optically controlled gate drivers are desirable for deriving disruptive technologies for high-voltage, high-frequency, and high-power applications. However, in light of the emerging wide bandgap (WBG) semiconductor devices, improvement of the FoMs (figure of merits) of optically controlled gate drivers, such as power capacity and switching time vs. optical input power, is desirable. This paper proposes a light-triggered gate driver (LTGD) consisting of a single low-power InGaAs photodiode (PD) and low-voltage GaN buffer transistors to achieve ultrafast switching as well as capable driving current for high power SiC module. First, concept of the proposed LTGD and its circular economy compatible design is presented. Next, modeling and experimental characterization of the key components, including PD and GaN buffer transistors, are presented. Thereafter, simulation in LTspice considering detailed components' models is established and modes of operations are discussed. Finally, the proposed light-triggered gate driver is verified experimentally. The results demonstrate 57/38 ns gate voltage rise/fall time with > 50 A sinking/sourcing current for 3.3 kV, 624 A SiC power module with over 52 nF of equivalent input capacitance.",
+    "pdf": "publications/Light-Triggered_Ultrafast_Gate_Driver.pdf",
+    "link": "https://ieeexplore.ieee.org/abstract/document/11259893",
+    "type": "Conference Paper",
+    "research_id": 8
+  },
+  {
+    "id": 48,
+    "title": "A. Moghassemi, L. Timilsina, S. M. Imrat, A. Arsalan, E. Buraimoh, G. Ozkan, B. Papari, C. E. Edrington, and Z. Zhang, “Electro-thermal management and degradation forecasting of power electronics building blocks in all-electric ships,” Electric Ship Technology Symposium, August 2025.",
+    "publication_date": "2025-09-11",
+    "abstract": "The Power Electronics Building Block (PEBB) concept integrates fundamental components into modular units, scalable for All-Electric Ships (AESs) through Modular Multilevel Converters (MMCs). MMC-based PEBBs offer modularity, low switching losses, good voltage and current quantization, and high efficiency. However, switching frequency greatly impacts converter design, influencing size, cost, and component stress. Higher frequencies reduce reactive component size but increase thermal stress and degradation of power modules. This paper proposes a Finite-Control Set Model Predictive Control (FCSMPC) method for multi-objective electro-thermal management of PEBBs, integrating a Deep Neural Network (DNN)-based degradation forecasting model. Results demonstrate the method's ability to maintain power quality, regulate junction temperature, and provide accurate degradation forecasts, enhancing reliability and mitigating aging.",
+    "pdf": "publications/Electro-Thermal_Management_and_Degradation_Forecasting.pdf",
+    "link": "https://ieeexplore.ieee.org/abstract/document/11152422",
+    "type": "Conference Paper",
+    "research_id": 3
+  },
+  {
+    "id": 34,
+    "title": "A. Moghassemi, L. Timilsina, S. M. I. Rahman, A. Arsalan, G. Muriithi, E. Buraimoh, G. Ozkan, B. Papari, C. S. Edrington, Z. Zhang and P. K. Chamarthi, “Real-time improved nearest level control for power electronics building blocks in all-electric ship power systems,” in IEEE Transactions on Industry Applications, early access.",
+    "publication_date": "2025-09-05",
+    "abstract": "Power electronics building block (PEBB) concept involves integrating fundamental components into functional blocks that can be stacked, extending converter power ratings for all-electric ships (AESs). This modular approach reduces costs, size, weight, design complexity, and maintenance. PEBBs can be realized as modular multi-level converters (MMCs), which offer advantages like modularity, low switching losses, minimal voltage/current quantization, high reliability, and efficiency. However, effective switching control methods are crucial to balance capacitor voltages and suppress circulating currents. This paper proposes an improved nearest level control (NLC) method that employs smoothed trapezoidal reference signals instead of sinusoidal references, aiming to enhance capacitor voltage balancing, suppress circulating currents, and improve the output power quality of PEBBs in AESs. The proposed NLC method is analyzed in real-time for an N-level PEBB connected to an induction machine (IM) with variable speed and torque load. The real-time verification is conducted in the Typhoon HIL606 digital real-time simulator (DRTS). The results validate the feasibility and effectiveness of the proposed NLC method for a three-phase N-level PEBB concept for AESs.",
+    "pdf": "publications/Real.pdf",
+    "link": "https://ieeexplore.ieee.org/abstract/document/10959104",
+    "type": "Journal Paper",
+    "research_id": 4
+  },
+  {
+    "id": 35,
+    "title": "D. Qin, Z. Zhang, L. Wang, S. Dam, C.H. Yang, Z. Dong, C. Wan, H. Bai, and F. Wang, “Co-design of detection, actuation, and control for solid-state circuit breakers in electrified aircraft propulsion system,” in IEEE Journal of Emerging and Selected Topics in Power Electronics, early access.",
+    "publication_date": "2025-08-05",
+    "abstract": "As a crucial component of the direct current (dc) electrified aircraft propulsion (EAP) systems, the dc solid-state circuit breaker (dc-SSCB) has been extensively studied at the breaker level, including topology, energy absorption circuit, gate driver, and control. However, system-level considerations are also crucial but have received limited attention. This article presents a comprehensive solution with integrated circuitries functioning as fault detectors, actuators for regulating semiconductor operating status, and coordinated control to seamlessly transition between modes (e.g., the normal mode, precaution mode, i2t mode, and instantaneous trip mode). This design enables the developed SSCB to limit system fault currents within the short-circuit current rating (SCCR) and respond appropriately to various fault scenarios. First, two improved fault detection circuits are introduced to enhance SSCB applications. Second, four operation modes are proposed to achieve optimal system functionality. Third, leveraging these four operation modes, a control strategy is demonstrated to execute different actions based on the fault scenarios. Finally, the feasibility and effectiveness of the proposed comprehensive SSCB are validated through experimental results.",
+    "pdf": "publications/Co-Design_of_Detection.pdf",
+    "link": "https://ieeexplore.ieee.org/abstract/document/10811906",
+    "type": "Journal Paper",
+    "research_id": 8
+  },
+  {
+    "id": 50,
+    "title": "A. Siraj, Z. Zhang, R. Dilip. P. Khadka, A. K. Das, “Reliability database for wide bandgap power semiconductors and module packaging via comprehensive survey and standardization,” IEEE Industry Applications Society Annual Meeting, June 2025.",
+    "publication_date": "2025-06-18",
+    "abstract": "The reliability of power electronic (PE) systems is becoming increasingly critical as these technologies are integrated into mission-critical applications. Accurate lifetime prediction for high-failure-rate components, such as power semiconductors and packaging, is essential for ensuring long-term efficient system performance. However, developing high-fidelity lifetime models requires a thorough understanding of underlying physics-of-failure (POF) mechanisms and extensive stress testing, which is often prohibitively costly and time-consuming when conducted individually. This study addresses these challenges by establishing a centralized reliability database, developed through a comprehensive survey of failure mode and effects analysis (FEMA) for the most vulnerable components in PE systems. Lifetime models associated with dominant failure mechanisms are compiled and standardized, including the extraction of key model coefficients, to support consistent and efficient reliability assessments. The resulting database serves as a valuable resource for benchmarking and guiding future research. The focus is placed on wide bandgap (WBG) power semiconductors and module packaging, two of the most failure-prone elements in modern power electronic converters. Additionally, this study identifies existing research gaps and proposes a structured roadmap for advancing the development of a comprehensive reliability database.",
+    "pdf": "publications/Reliability_Database_for_Wide_Bandgap_Power_Semiconductors.pdf",
+    "link": "https://ieeexplore.ieee.org/abstract/document/11061764",
+    "type": "Conference Paper",
+    "research_id": 3
+  },
+  {
+    "id": 49,
+    "title": "L. Wang, A. Siraj, B. F. Brown, A. K. Das, and Z. Zhang, “PV inverter reliability assessment: methodology and case study,” IEEE 53rd Photovoltaic Specialist Conference (PVSC), Montreal, QC, Canada, June 2025.",
+    "publication_date": "2025-06-13",
+    "abstract": "Reliable operation of photovoltaic (PV) inverters is critical for consistent power generation and minimizing maintenance costs in solar energy systems. An accurate reliability assessment plays a key role in optimizing system design, planning maintenance strategies, and enhancing operational efficiency. However, traditional assessment methods often rely on generic failure rates and simplified ambient conditions, limiting their accuracy by overlooking specific environmental stressors and mission profiles. To overcome these limitations, this paper introduces a comprehensive, application-oriented methodology that integrates tailored Physics-of-Failure (PoF) models with realistic, location-specific mission profiles. The proposed framework begins with a component-level evaluation of PV inverter reliability and is validated through a detailed case study using real-world field data. Results show a marked improvement in prediction accuracy over conventional approaches. Notably, the study underscores the importance of considering relative humidity—alongside temperature—as a critical factor in accelerating degradation, particularly in humid environments.",
+    "pdf": "publications/PV_Inverter_Reliability_Assessment_Methodology_and_Case_Study.pdf",
+    "link": "https://ieeexplore.ieee.org/abstract/document/11133245",
+    "type": "Conference Paper",
+    "research_id": 3
+  },
+  {
+    "id": 68,
+    "title": "L. Wang, A. Reeves, B. Brown, D. Clemens, J. Hodges, J. Ozbeytemur, S. Jin, and Z. Zhang, “Integrated large-scale data management platform for photovoltaic PCE reliability data,” in Proc. IEEE Photovoltaic Specialists Conference (PVSC), June 2023, pp. 1-6.",
+    "publication_date": "2025-06-11",
+    "abstract": "To meet the demand for accuracy and real-time capability of PV system degradation evaluation, massive volume data is needed to run high-fidelity and high-efficiency simulations and perform advanced data analysis. However, PV farm operators have a series of difficulties with PV inverter data, such as data collection from multiple channels, massive data storage, data management and massive data analysis. To address these challenges, we developed an integrated data management platform capable of data acquisition, processing, storage, query, and performing big data analysis utilizing AI algorithms. The platform can also achieve data correctness verification and provide an effective distributed data management solution to retrieve massive data and establish a connection to distributed computational frameworks.",
+    "pdf": "publications/Integrated_Large-Scale_Data_Management_Platform_for_Photovoltaic_Power.pdf",
+    "link": "https://ieeexplore.ieee.org/abstract/document/10359922",
+    "type": "Conference Paper",
+    "research_id": 3
+  },
+  {
+    "id": 51,
+    "title": "A. K. Das, T. Qiu, and Z. Zhang, “Investigating the limitations of Desat protection for WBG semiconductors: conjoint effects due to the parasitic inductances, junction temperature and dynamic drain-source resistance,” in IEEE Microelectronics Design and Test Symposium, May 2025.",
+    "publication_date": "2025-05-15",
+    "abstract": "Due to the advent of wide bandgap (WBG) semiconductors and their adaptation into the power electronic converters, a fast and reliable overcurrent/short-circuit protection scheme is essential to ensure failsafe converter operation. Among various short-circuit protection (SCP) schemes adopted for WBG semi-conductors, the desaturation (Desat) scheme is cost-effective, simple to implement with fast response times being reported in the literature. However, the impacts of parasitic inductances, which originate due to device packaging and printed circuit board layout, on the design and implementation of Desat protection are not well documented. Moreover, effect of the junction temperature of WBG semiconductors on the performance of Desat protection is not reported in the existing literature. Furthermore, the dynamic drain-source resistance characteristics, being pertinent to WBG semiconductors, pose additional challenge for reliable design of Desat protection. To ameliorate these research gaps, this paper provides a comprehensive study illustrating the conjoint effects of parasitic inductances, junction temperature and dynamic drain-source resistance on the short-circuit withstand time (SCWT) of WBG semiconductors. Thereby, this study establishes the limiting conditions imposed on the Desat protection based on the practical operating conditions and the intrinsic characteristics of WBG semiconductors. These analytical postulates are verified with the help of LTspice simulation as well as experimental results obtained based on enhancement mode GaN transistors.",
+    "pdf": "publications/Investigating_the_Limitations_of_Desat_Protection_for_WBG_Semiconductors.pdf",
+    "link": "https://ieeexplore.ieee.org/abstract/document/11177131",
+    "type": "Conference Paper",
+    "research_id": 8
+  },
+  {
+    "id": 53,
+    "title": "P. Khadka, S. Shivdilar, Z. Zhang, T. Qiu, A. Siraj, “Comparison of static characteristics in GaN HEMTs across 50 K to 400 K considering diverse techniques and statistical variation,” Proc. IEEE Applied Power Electronics Conference and Exposition, March 2025.",
+    "publication_date": "2025-03-20",
+    "abstract": "GaN HEMTs are prominent candidates for space applications, such as lunar missions, which require reliable operation over a wide temperature range from 50K to 400K. Previous studies have examined the performance of GaN HEMTs at cryogenic temperatures (typically down to 77K), but they often focus on a limited selection of models and sample sizes. To address this gap, a comprehensive analysis of diverse GaN HEMTs is necessary, considering their performance across a broad temperature range and statistical variations due to manufacturing inconsistencies. This paper provides a comparison of GaN HEMTs based on different voltage ratings, technologies and packaging approaches. A key observation is that the on-state resistance of the studied Gate Injection Transistor (GIT) device exhibits a parabolic variation with temperature, with resistance at 50K being 1.25 times higher than at room temperature. Additionally, the statistical variation in the static parameters of a cascode GaN device across six samples reveals that the variation increases as the temperature decreases, indicating that the statistical variation over a wide temperature range cannot be overlooked.",
+    "pdf": "publications/Comparison_of_Static_Characteristics.pdf",
+    "link": "https://ieeexplore.ieee.org/abstract/document/10977073",
+    "type": "Conference Paper",
+    "research_id": 5
+  },
+  {
+    "id": 52,
+    "title": "T. Qiu, Z. Zhang, P. Khadka, A. Siraj, and D. Rana, “Automated characterization platform for comprehensive dynamic Rdson assessment of GaN HMETs from 50 K to 400 K,” Proc. IEEE Applied Power Electronics Conference and Exposition, March 2025.",
+    "publication_date": "2025-03-12",
+    "abstract": "Gallium Nitride (GaN) HEMTs demonstrate superior performance at cryogenic temperatures, making them promising candidates for lunar missions where temperatures vary from 50 to 400 K. However, the current collapse effect increases dynamic on-state resistance (Rdson) during switching, leading to additional energy loss, especially in high-frequency applications. To conduct a comprehensive study with high efficiency, we developed an automated characterization platform for dynamic Rdson extraction under multi-stressor conditions. The design considerations include 1) programmable stressors such as temperatures, voltages, currents, etc., 2) electrothermal-mechanical compatibility with the cryocooler across a wide temperature range, and 3) software framework for full automation. Results for a commercial GaN HEMT show that dynamic Rdson varies non-monotonically with temperature increment, as it increases at 50 - 180 K and then decreases a 180 - 400 K. Dynamic Rdson follows this trend at both hard- and soft-switching, but is more sensitive to stressors at hard switching, while remaining nearly unchanged at soft switching, indicating that, under this testing plan that applies low stressing voltages, hot electron effect makes the major contribution to dynamic Rdson.",
+    "pdf": "publications/Automated_Characterization_Platform.pdf",
+    "link": "https://ieeexplore.ieee.org/abstract/document/10977105",
+    "type": "Conference Paper",
+    "research_id": 5
+  },
+  {
+    "id": 33,
+    "title": "C. Wagner, Y. Li, S. Jin, Z. Zhang, and C. Edrington, “Fast and scalable simulation framework for intensive power electronics simulation through advanced computing techniques,” in Journal of Electronics and Electrical Engineering, early access.",
+    "publication_date": "2025-02-18",
+    "abstract": "Power electronics are widely used in power and energy systems, such as electrified transportation and renewable energy systems. These systems are increasing related simulations' size and complexity, resulting in longer computation times. Advanced computing techniques offer new tools for efficient simulation while designing and simulating complex energy systems. This paper introduces high-performance computing for intensive power electronics simulation and demonstrates resultant simulation speedup in a quantified and scalable manner. First, a quantitative study is performed to compare a slower-than-real-time (STRT) simulation benchmark and the proposed faster-than-real-time (FTRT) simulation through a single power electronics building block (PEBB) case study. The impact of switching frequencies in the range of tens to hundreds of kHz considering wide bandgap (WBG) power semiconductors is also investigated. The simulation speed is observed to be accelerated by a factor of 43.8 when using high-performance computing techniques compared to the sequential-based simulation benchmark. Next, a scalable simulation framework is proposed for expanding a single PEBB to an energy system consisting of multiple PEBBs. The framework leverages the high-performance programming language Julia with multi-threaded parallel computing capabilities to reduce the computational burden of power system simulation. The performance gains from the case study demonstrate an average speedup of 2540 times in a 15.0 s multi-PEBB simulation case study compared to its baseline version, with maintained simulation accuracy and ensured scalability.",
+    "pdf": "publications/JEEE-5919-online.pdf",
+    "link": "https://ojs.wiserpub.com/index.php/JEEE/article/view/5919",
+    "type": "Journal Paper",
+    "research_id": 4
+  },
+  {
+    "id": 36,
+    "title": "B. F. Brown, Z. Zhang, J. H. Enslin and C. Wan, “Universal short-circuit and open-circuit fault protection and detection for a power converter’s power device,” in IEEE Transactions on Industry Applications, vol. 61, no. 1, pp. 527-536, Jan.-Feb. 2025.",
+    "publication_date": "2025-01-25",
+    "abstract": "Short-circuit and open-circuit faults of a converter's power device often lead to catastrophic failure of the entire system if not detected and acted upon within a sub-microsecond time frame, particularly for emerging wide bandgap (WBG) power semiconductors. While much research has been done on the fast and accurate protection and detection of short-circuit faults, there has been less success corresponding to open-circuit faults. Common downfalls include protection and detection that are too application-specific, take longer than a couple of microseconds, and are not cost-efficient. This paper proposes a new open-circuit fault protection and detection system integrated with a pre-existing short-circuit system called desaturation protection. First, a literature review is conducted to confirm the necessity of the new protection and detection scheme. Second, the operation principle and design considerations of the newly proposed protection and detection circuitry are discussed. Third, a simulation and experiment are designed, conducted, and compared to showcase the new scheme's success, effectiveness, and adaptability in an actual inverter. The results of testing the proposed system illustrate the success and reliability of the new fault protection and detection scheme.",
+    "pdf": "publications/Universal_Short-Circuit_and_Open.pdf",
+    "link": "https://ieeexplore.ieee.org/abstract/document/10682472",
+    "type": "Journal Paper",
+    "research_id": 8
+  },
+  {
+    "id": 54,
+    "title": "T. Qiu, Z. Zhang, and P. Khadka, “Conduction lead design and optimization for cryogenic characterization of GaN HEMTs,” in Proc. IEEE Energy Conversion Congress and Exposition, Oct. 2024.",
+    "publication_date": "2024-10-24",
+    "abstract": "Gallium Nitride (GaN) HEMTs present superior characteristics at cryogenic temperatures and becomes promising candidates for the lunar mission under the extreme cold environment down to 50 K. Extensive studies have been performed to characterize GaN HEMTs using cryogenic chamber with Liquid Nitrogen (LN2) down to 77 K, while few research focuses on cryocooler with Liquid Helium (LHe2) with limited trade study of cryogenic cabling between electrical resistance and heat flow. This paper proposes a methodology to optimize lead design for cryogenic device characterization. First, the temperature evolution along the conduction lead during the pulse test is modeled with reasonable assumptions, finding that Joule heating effect is basically negligible. Then, the thermal load and load-line effect are analyzed to introduce the design constraints, by which the optimization is performed to achieve desirable voltage drop and thermal load. Finally, the proposed methodology is validated by several design examples, and the I-V characterization of a GaN HEMT is demonstrated at 50 K.",
+    "pdf": "publications/Conduction_Lead_Design_and_Optimization_for_Cryogenic_Characterization_of_GaN_HEMTs.pdf",
+    "link": "https://ieeexplore.ieee.org/abstract/document/10861754",
+    "type": "Conference Paper",
+    "research_id": 5
+  },
+  {
+    "id": 55,
+    "title": "P. Khadka, C. Wan, Z. Zhang, T. Qiu, and A. Siraj, “Automated static characterization platform for multi-GaN devices across cryogenic and high-temperatures,” in Proc. IEEE Energy Conversion Congress and Exposition, Oct. 2024.",
+    "publication_date": "2024-10-24",
+    "abstract": "GaN has demonstrated superior characteristics for cryogenic operation and is considered a promising candidate for space power applications. However, much of the characterization work has been conducted using a cryo chamber with LN2 at 77K, which is insufficient for target space applications such as lunar missions that demand operation down to 50K. Moreover, most studies have provided data based on limited samples, which might not be sufficient for emerging GaN with relatively large tolerance. To address these limitations, an automated characterization platform is proposed. Firstly, the hardware platform, which includes a cryocooler setup, programmable selector, curve tracer, and temperature controller, is discussed. Secondly, the automation workflow, integrated with the MATLAB GUI, for seamless multi-device characterization over a wide temperature range (50K-400K), is described. Thirdly, the platform is validated by characterizing four GaN samples of EPC 2215. The test results reveal (i) a continuous trend of the GaN under test across a wide temperature range of 50K-400K and (ii) data with statistical variations based on three samples, highlighting the need to characterize multiple parts for a full understanding of GaN characteristics.",
+    "pdf": "publications/Automated_Static_Characterization.pdf",
+    "link": "https://ieeexplore.ieee.org/abstract/document/10861343",
+    "type": "Conference Paper",
+    "research_id": 5
+  },
+  {
+    "id": 56,
+    "title": "C.H. Yang, S.K. Dam, Z. Dong, D. Qin, R. Chen, F. Wang, H. Bai, and Z. Zhang, “Spring-loaded GaN packaging for cryogenic thermal cycling,” in Proc. IEEE Energy Conversion Congress and Exposition, Oct. 2024.",
+    "publication_date": "2024-10-24",
+    "abstract": "Cryogenic power module packaging brings additional challenges for lack of low-temperature soft potting material and flexible electrical connections. Thermal expansion mismatches among different rigid layers of the package can cause the die failure. This paper develops and demonstrates a cryogenically cooled GaN packaging for a 750V/100A solid-state circuit breaker (SSCB) module. The proposed printed circuit boards (PCB)/direct bonded copper (DBC) hybrid module, clamped by spacers and springs to form a spring-loaded structure, can survive thermal cycling down to cryogenic temperatures. Experimental results of thermal cycling and interrupting a 10X fault current (1kA) by the proposed module are provided to show the effectiveness of the proposed packaging method operated with cryogenic cooling.",
+    "pdf": "publications/Spring-Loaded_GaN_Packaging_for_Cryogenic_Thermal_Cycling.pdf",
+    "link": "https://ieeexplore.ieee.org/abstract/document/10861283",
+    "type": "Conference Paper",
+    "research_id": 5
+  },
+  {
+    "id": 37,
+    "title": "S. Dam, C.H. Yang, Z. Dong, D. Qin, R. Chen, F. Wang, H. Bai, Z. Zhang, “Module development for a high specific power density high-efficiency cryogenic solid-state circuit breaker for electrified aircraft propulsion,” in IEEE Transactions on Power Electronics, vol. 39, no. 10, pp. 13234-13247, Oct. 2024.",
+    "publication_date": "2024-10-10",
+    "abstract": "Solid-state circuit breaker (SSCB) with high efficiency and high gravimetric power density is required for electrified aircraft propulsion (EAP). A cryogenically cooled gallium nitride (GaN) device-based SSCB module is developed for the EAP system to achieve a higher power density than existing SSCBs. The SSCB module is suitable for medium voltage direct current (MVdc) applications and is designed with low-weight modular cold plates. Each module is rated for 750 V, 100 A, and can interrupt a fault current of 1 kA at cryogenic temperature. The SSCB module structure design, thermal interface design, modular cold plate design, and insulation design are discussed. The developed SSCB module prototype achieves a power density of 329 kW/kg and an efficiency of 99.93%. Experimental results of interrupting a fault of 1 kA and insulation test of the SSCB module are provided to validate its operation.",
+    "pdf": "publications/Module_Development_for_a_High_Specific_Powe.pdf",
+    "link": "https://ieeexplore.ieee.org/abstract/document/10591417",
+    "type": "Journal Paper",
+    "research_id": 5
+  },
+  {
+    "id": 58,
+    "title": "B. F. Brown, J. Westman, J. Enslin and Z. Zhang, “Development of a two-level, four-leg smart inverter for microgrid applications,” IEEE 15th International Symposium on Power Electronics for Distributed Generation Systems (PEDG), Luxembourg, Luxembourg, 2024, pp. 1-6.",
+    "publication_date": "2024-06-23",
+    "abstract": "Microgrids are growing at a rapid pace, and as a result, power electronic inverters are more necessary than ever. However, the development of an adaptable inverter based on a changing control objective that also contains grid-related functions is lacking. This paper investigates the development of a novel two-level, four-leg smart inverter for a microgrid that can solve this problem. First, the inverter topology is discussed, modeled, and controlled using a standard dual-loop voltage control. Second, grid-forming functions are investigated. Third, an additional layout and control system are created for the grid-following inverter. Fourth, a simulation is constructed, and the capabilities of the smart inverter are highlighted.",
+    "pdf": "publications/Development_of_a_Two-Level_Four-Leg_Smart_Inverter_for.pdf",
+    "link": "https://ieeexplore.ieee.org/abstract/document/10667361",
+    "type": "Conference Paper",
+    "research_id": 8
+  },
+  {
+    "id": 57,
+    "title": "A. Moghassemi, L. Timilsina, S. M. Imrat, A. Arsalan, P. K. Chamarthi, G. Ozkan, and Z. Zhang, “Nearest level control based modular multi-level converters for power electronics building blocks concept in electric ship system,” IEEE Transportation Electrification Conference and Expo (ITEC), Chicago, IL, USA, 2024, pp. 1-6.",
+    "publication_date": "2024-06-19",
+    "abstract": "Power electronics building blocks (PEBBs) involve the integration of fundamental components into blocks with defined functionality, stacked in series and parallel, to extend converter power ratings to meet naval ship systems’ various power conversion needs. The PEBBs concept in literature is based on modular multilevel converters (MMCs). MMCs are promising candidates for medium and high-power system applications owing to their unique features, such as modularity/scalability/simplicity in structure, low switching losses, low quantization on voltage/current, high reliability, and high efficiency. However, a promising switching control method is required in MMCs to balance the capacitor voltage and suppress the circulating current. This paper presents the nearest level control (NLC) method for the PEBBs concept in modern electric ship systems to simultaneously improve capacitor voltage balancing, circulating current, and power quality. The simulation is conducted in MATLAB/Simulink software. A three-phase five-level MMC converter is considered for the simulation to analyze and compare the converter’s performance based on the proposed NLC and traditional sinusoidal pulse-width modulation (SPWM) switching methods.",
+    "pdf": "publications/Nearest_Level_Control_Based_Modular_Multi-.pdf",
+    "link": "https://ieeexplore.ieee.org/abstract/document/10598932",
+    "type": "Conference Paper",
+    "research_id": 4
+  },
+  {
+    "id": 59,
+    "title": "L. Wang, S. Jin and Z. Zhang, “Sample-reduced uncertainty quantification method on PV inverter reliability assessment using unscented transformation,” IEEE 52nd Photovoltaic Specialist Conference (PVSC), Seattle, WA, USA, 2024, pp. 1716-1720.",
+    "publication_date": "2024-06-09",
+    "abstract": "Uncertainties involved from various sources need to be addressed to improve the reliability and robustness of modeling, simulation, and the resultant prediction results, including the analysis in photovoltaic (PV) systems. Standard methods to deal with this issue, like the Monte Carlo method, demand generating a large number of samples to achieve statistically reliable results with the penalty of computational burden. If simulation parameters and ultimate results accompanied by uncertainties are passed through multiple layers, as is common in PV system modeling and simulation, new levels of uncertainties may be caused. By applying Sobol sensitivity analysis and Un-scented Transformation, a sample-reduced strategy is proposed to improve result prediction for PV systems without sacrificing accuracy by generating fewer but more representative samples.",
+    "pdf": null,
+    "link": "https://ieeexplore.ieee.org/abstract/document/10749678",
+    "type": "Conference Paper",
+    "research_id": 3
+  },
+  {
+    "id": 38,
+    "title": "J. Zhou, M. Baferani, T. Shahsavarian, P. McGinnis, S. Walker, D. Qin, Z. Zhang, C. Li, and Y, Cao, “DC flashover in printed circuit boards at low gas pressures: mechanism and mitigation recommendations,” in IEEE Access, vol. 12, pp. 77347-77355, May 2024",
+    "publication_date": "2024-05-28",
+    "abstract": "PCB layouts with different polygon shapes and insulation distances were prepared and their surface flashover voltage subjected to different ramping rates were measured at different temperatures and different low gas pressures for emulated high-altitude conditions. The dependence of the surface flashover voltage on effects of gas pressure, surface insulation distance, temperature, and polygon shape was studied. Modulation efforts which include tailoring the local surface conductivity and local topography modification were performed to increase the flashover of PCB, and the related mechanism was studied. The results showed that the voltage ramping rate plays an important role in determining flashover voltage. The flashover voltage is lower when the sample is subjected to a rapid voltage ramping rate than with a slow ramping rate. This phenomenon is more prominent towards ambient pressure. The increase in temperature results in a decrease in flashover voltage at 100 kPa, while at 20 kPa and 10 kPa, the influence of temperature on flashover becomes less significant. Through-holes designed in the PCB have a positive role in increasing flashover voltage at lower pressures. However, at 100 kPa, the holes no longer contribute to any higher flashover voltage. Modification of local surface conductivity has no contribution in increasing the flashover voltage, while a surface coating with a surface conductivity of 10−10 S dramatically decreases the flashover voltage. The work presented in this paper provides a reference for the design and modification of PCB layouts for use in future aerospace hybrid propulsion systems.",
+    "pdf": "publications/DC_Flashover_in_Printed_Circuit_Boards.pdf",
+    "link": "https://ieeexplore.ieee.org/abstract/document/10540135",
+    "type": "Journal Paper",
+    "research_id": 3
+  },
+  {
+    "id": 60,
+    "title": "D. Qin, Z. Zhang, S. K. Dam, C. H. Yang, Z. Dong, C. Wan, H. Bai, and F. Wang, “Towards system-friendly solid-state circuit breaker for electrified aircraft propulsion,” IEEE Applied Power Electronics Conference and Exposition (APEC), Long Beach, CA, USA, 2024, pp. 3108-3114.",
+    "publication_date": "2024-05-02",
+    "abstract": "As the enabler of the direct current (DC) power distribution system, DC solid-state circuit breaker (DC-SSCB) has been extensively studied at the breaker-level (e.g., topology, energy absorption circuit, gate driver, and control) with limited system-level considerations, which is also crucial. This paper provides an all-in-one solution with integrated circuitries as the fault detector, actuator for semiconductor’s operating status regulation, and coordinated control to seamlessly transition from one mode to another (e.g., normal mode, precaution mode, i2t mode, and interruption mode). This allows the developed SSCB to limit system fault current not exceeding short-circuit current rating (SCCR) and take different responses under different fault cases. First, two improved fault detection circuits are introduced to better serve the SSCB application. Second, four operation modes are proposed for SSCB to realize system-friendly functions. Third, by leveraging four different operation modes, a control strategy is demonstrated to take different actions based on different fault cases. Finally, the feasibility and the effectiveness of the proposed system-friendly 200V/10A SSCB is validated with experimental results.",
+    "pdf": "publications/Towards_System-Friendly_Solid-State_Circuit_KeDOSpA.pdf",
+    "link": "https://ieeexplore.ieee.org/abstract/document/10509415",
+    "type": "Conference Paper",
+    "research_id": 8
+  },
+  {
+    "id": 39,
+    "title": "D. Qin, Z. Zhang, D. Zhang, Y. Xu, C. wan, R. Lakshmi, S. Tohid, D. Dong, and Y. Cao, “Oscillation issue and solution for solid-state circuit breaker using high power IGBT module,” in IEEE Transactions on Industry Applications, vol. 60, no. 1, pp. 765-772, Jan.-Feb. 2024.",
+    "publication_date": "2024-02-13",
+    "abstract": "Power semiconductors need to momentarily operate in the active area of DC solid-state circuit breakers (DC-SSCB) to limit the fault current. During this interval, a severe voltage oscillation is observed, leading to the DC-SSCB overstress and eventually failure. This article aims to understand the mechanism causing the voltage oscillation and devise solutions to suppress it. First, a MATLAB/Simulink model is built with comprehensive considerations of power semiconductors, parasitics, gate drive, and metal oxide varistor (MOV). Then a sensitivity study is performed to identify the critical impact factor(s) causing the voltage oscillation. Afterward, three suppression methods using enhanced gate drive circuitry are proposed and compared. Finally, test results based on a 2 kV/1 kA SSCB prototype demonstrate the accuracy of the derived model and the effectiveness of the proposed oscillation mitigation methods.",
+    "pdf": "publications/Oscillation_Issue_and_Solution.pdf",
+    "link": "https://ieeexplore.ieee.org/abstract/document/10246437",
+    "type": "Journal Paper",
+    "research_id": 8
+  },
+  {
+    "id": 61,
+    "title": "Y. Xu, D. Zhang, K. Brandon, R. Lakshmi, D. Qin, and Z. Zhang, “The analysis design and optimization of an electronic MOV circuit for the solid-state circuit breaker applications,” in Proc. IEEE Energy Conversion Congress and Exposition, Oct.-Nov. 2023, pp. 1767-1773.",
+    "publication_date": "2023-10-29",
+    "abstract": "The electronic metal oxide varistor (eMOV) is the series connection of a traditional MOV and a thyristor with its gate controlled by a breakover diode (BOD). Compared with the traditional solid-state circuit breaker (SSCB) design, the eMOV allows the decoupling of the MOV clamping voltage and the direct current (DC) system voltage and proves essential for efficiency and power density enhancement. This paper focuses on the operation details and optimization of the eMOV. In-depth analysis and experimental results are provided to validate the eMOV design methodology and highlight the key application aspects.",
+    "pdf": "publications/The_Analysis_Design_and_Optimization_of_an_Electronic_MOV_Circuit_for_the_Solid.pdf",
+    "link": "https://ieeexplore.ieee.org/abstract/document/10362174",
+    "type": "Conference Paper",
+    "research_id": 8
+  },
+  {
+    "id": 62,
+    "title": "C. H. Yang, S. K. Dam, Z. Dong, D. Qin, R. Chen, F. Wang, H. Bai, and Z. Zhang, “A high efficiency 750V, 100A cryogenically cooled SSCB module for aviation application,” in Proc. IEEE Energy Conversion Congress and Exposition, Oct.-Nov. 2023, pp. 1745-1751.",
+    "publication_date": "2023-10-29",
+    "abstract": "A solid-state circuit breaker (SSCB) needs to have very high efficiency comparable to its mechanical counterpart, and GaN offers highest conduction loss reduction at cryogenic temperatures. So, cryogenic cooling of future EAP is leveraged to design a 750V/100A SSCB module with an efficiency target higher than 99.9% and high over-current capability. The cryogenically cooled SSCB module design is developed in this paper, including key components selection and module design considerations. Experimental results are provided to validate the capability of the designed SSCB module to interrupt 10x of rated current at cryogenic temperatures (<-153°C).",
+    "pdf": null,
+    "link": "https://ieeexplore.ieee.org/abstract/document/10362426",
+    "type": "Conference Paper",
+    "research_id": 5
+  },
+  {
+    "id": 63,
+    "title": "S. K. Dam, C. H. Yang, Z. Dong, D. Qin, R. Chen, F. Wang, H. Bai, and Z. Zhang, “Module development of a high-power-density high-efficiency cryogenic solid state circuit breaker for electrified aircraft propulsion,” in Proc. IEEE Energy Conversion Congress and Exposition, Oct.-Nov. 2023, pp. 1996-2001.",
+    "publication_date": "2023-10-29",
+    "abstract": "Solid state circuit breaker (SSCB) with high efficiency and high gravimetric power density is required for Electrified Aircraft Propulsion (EAP). A cryogenically cooled GaN device based SSCB module is developed for EAP system. The SSCB module is suitable for medium voltage direct current (MVDC) applications and is designed with low-weight modular cold plates. Each module is rated for 750V, 100A and achieves a power density of 329 kW/kg. The design of the SSCB module structure, thermal design, and insulation design are discussed. Experimental results of interrupting an over-current fault of ~10x of the rated current by the SSCB module is provided to validate its operation at cryogenic temperature.",
+    "pdf": "publications/Module_Development_of_a_High-Power-Density_High-.pdf",
+    "link": "https://ieeexplore.ieee.org/abstract/document/10362337",
+    "type": "Conference Paper",
+    "research_id": 5
+  },
+  {
+    "id": 64,
+    "title": "A. Siraj, C. Wan, D. Qin, Y. Li, Z. Zhang, M. Russell, and M. Ursino, “Integrated AC power cycling platform with automated characterization for T-Type power module,” in Proc. IEEE Energy Conversion Congress and Exposition, Oct.-Nov. 2023, pp. 5497-5503.",
+    "publication_date": "2023-10-29",
+    "abstract": "The reliability of power electronic modules can be assessed by stress testing the devices and characterizing them. AC power cycling provides the platform to stress the devices in exact field conditions. This paper exhibits the existing state of the art in AC power cycling test benches and demonstrates the uniqueness of the newly developed test bench for PV inverter application. Characterizing is an essential part of the reliability model development. It becomes a challenge to characterize the T-type IGBT modules and visualize results because they are complex and time-consuming, especially for power modules based on a non-phase-leg configuration, such as T-type circuits, widely applied for PV inverters. This paper focuses on stress testing with a built-in characterization platform for easy and time-efficient characterization of T-type IGBT modules. First, state of the art in AC power cycling is presented. Second, the unique features of the stress testing platform are shown. Finally, the test result has been presented for the newly built platform.",
+    "pdf": "publications/Integrated_AC_Power_Cycling_Platform_with_Automated_Characterization_for_T-.pdf",
+    "link": "https://ieeexplore.ieee.org/abstract/document/10362957",
+    "type": "Conference Paper",
+    "research_id": 3
+  },
+  {
+    "id": 65,
+    "title": "Y. Li, Z. Zhang, S. Jin, and C. S. Edrington, “Accelerating switching model-based simulation through parallel computing,” in Proc. IEEE Energy Conversion Congress and Exposition, Oct.-Nov. 2023, pp. 2771-2775.",
+    "publication_date": "2023-10-29",
+    "abstract": "Power electronics converters become an enabler for future power and energy system. High-fidelity power electronics simulation can be compute-intensive and time-consuming because of the higher switching frequency (i.e., switching actions per second) of converter using advanced power semiconductors and an increased number of converters applied in the system, such as renewable energy with energy storage and electrified transportation. Unlike the switching model, average modeling can efficiently alleviate the computational burden, and adequately represent converters’ behavior for the controller design, but sacrifice the resolution for switching ripples/harmonics, which are also crucial for power electronics design, operation, and reliability studies. This digest proposes to accelerate the switching model-based simulation by leveraging a fast but low-fidelity average model plus parallel computing technique, entitled the average-to-switching (A2S) method. First, in comparison with today’s sequentially-computing approach, the basic concept of the A2S method by introducing parallel computing is presented. Then, the detailed methodology of the proposed A2S approach is described with the derivation of the algorithm suitable for paralleling computing. Finally, a case study with a widely applied two-level voltage source converter is performed and a comparison among these methods is summarized. It is observed that this proposed method performed >5 times speedup than the benchmark while maintaining an r-square value of the results > 0.99.",
+    "pdf": "publications/Accelerating_Switching_Model-Based_Simulation_Through_Parallel_Computing.pdf",
+    "link": "https://ieeexplore.ieee.org/abstract/document/10362655",
+    "type": "Conference Paper",
+    "research_id": 4
+  },
+  {
+    "id": 66,
+    "title": "S. Amara, Y. Li, C. Wagner, S. Jin, Z. Zhang and C. Edrington, “High-performance computing-based fast virtual prototyping of power electronics converters for ground vehicle powertrain systems,” 2023 North American Power Symposium (NAPS), Asheville, NC, USA, 2023, pp. 1-6.",
+    "publication_date": "2023-10-15",
+    "abstract": "Power electronics converters, as an enabler for future power and energy system, are heavily used in military ground vehicle powertrain systems to provide reliable and efficient power conversion. Virtual prototyping of power electronics converters using computer-aided modeling and simulation to create and test power electronics circuits and systems before they are physically constructed can help engineers to optimize designs, reduce development time, and lower costs. This paper demonstrates the effectiveness of developing a High-Performance Computing (HPC)-based power electronics modeling and simulation approach to speed up the entirety of simulation time to support high-speed power electronics-enabled power architecture for demanding ground vehicle powertrain applications. First, a multiple power electronics building block (PEBBs)-based model for the virtual prototyping of power electronics converters is developed in MATLAB. This is then followed by a parallel implementation of the same model in Julia utilizing its high-performance compiled programming language's fast computing capability and a variety of supported parallel computing programming interfaces. Later, more PEBBs are added to the multi-PEBB model to test the scalability of the parallel simulation. It is observed that the Message Passing Interface-based parallel multi-PEBBs simulation in Julia is both fast and scalable without a noticeable increase in execution times when more PEBBs are added to the system.",
+    "pdf": "publications/High-Performance_Computing-Based_Fast_Virtual_Prototyping_of_Power_Electronic.pdf",
+    "link": "https://ieeexplore.ieee.org/abstract/document/10318673",
+    "type": "Conference Paper",
+    "research_id": 4
+  },
+  {
+    "id": 40,
+    "title": "A. Moghassemi, S. M. I. Rahman, G. Ozkan, C. S. Edrington, Z. Zhang and P. K. Chamarthi, “Power converters coolant: past, present, future, and a path toward active thermal control in electrified ship power systems,” in IEEE Access, vol. 11, pp. 91620-91659, 2023.",
+    "publication_date": "2023-08-24",
+    "abstract": "Power converters have widespread applications in automotive, renewables, and power systems. The demand for power modules with low power consumption and high efficiency has increased due to advancements in semiconductor devices. So, power converters need to be highly efficient to reduce costs associated with energy dissipation and cooling requirements. This paper discusses various active thermal control methods for high-power power converters. It covers modulation and configuration techniques, ranging from single configurations to cascaded, modular, and multilevel converters. These concepts form the basis of power electronics building blocks, particularly relevant in all-electric ship systems. Power electronics building blocks represent a thriving technology that will advance ship power systems, the thermal design of which plays a crucial role in managing high heat dissipation levels. Hence, thermal management is essential for reliable device performance. The paper thoroughly studies different active thermal control methods and their impact on power semiconductor devices and converters, categorized per configurations, power routing methods, modulation, and control layers. The review then moves to thermal control methods for the PEBBs concept using multilevel converters in all-electric ship systems. The paper eventually outlines future research directions for the thermal aspect of power electronics building blocks.",
+    "pdf": "publications/Power_Converters_Coolant_Past_Present.pdf",
+    "link": "https://ieeexplore.ieee.org/abstract/document/10229154",
+    "type": "Journal Paper",
+    "research_id": 3
+  },
+  {
+    "id": 41,
+    "title": "D. Zhang, Y. Xu, B. Jonathan, Z. Zhang, D. Qin, and D. Dong, “A solid-state circuit breaker without current limiting inductor,” in IEEE Transactions on Industry Applications, vol. 59, no. 4, pp. 4640-4650, July-Aug. 2023.",
+    "publication_date": "2023-08-16",
+    "abstract": "This paper presents a high-density, high-efficiency megawatt (MW) medium-voltage (MV) solid-state circuit breaker (SSCB) for aviation hybrid electric propulsion applications. The proposed SSCB is based on the mature silicon (Si) insulated gate bipolar transistor (IGBT) devices. With reduced IGBT gate voltage, the proposed SSCB can limit the peak fault current without the fault current limiting inductor. Thus, the specific power density of the SSCB is substantially improved compared with the traditional design. This method has negligible impact on SSCB efficiency, reliability and energy absorbed by the metal-oxide varistor (MOV), while providing additional mechanical layout freedom for power density and insulation enhancement. The potential design challenges due to the extremely high ramp rate of the system fault current and the corresponding solutions are also discussed. The performance of the proposed SSCB is validated with experimental results.",
+    "pdf": "publications/A_Solid-State_Circuit_Breaker_Without_Current_Limiting_Inductor.pdf",
+    "link": "https://ieeexplore.ieee.org/abstract/document/10106031",
+    "type": "Journal Paper",
+    "research_id": 8
+  },
+  {
+    "id": 67,
+    "title": "A. Moghassemi, C. S. Edrington, G. Ozkan, Z. Zhang, G. Muriithi, “Active thermal control of AC/DC power converter considering health monitoring of power modules,” in Electric Ship Technology Symposium, August 2023, pp. 78-85.",
+    "publication_date": "2023-08-01",
+    "abstract": "The evolution of power electronics devices in the semiconductor sector has created a strong need for power modules that have high efficiency and low power usage. The power package; which embraces a couple of power electronics devices such as switches and diodes; provides mechanical supports, electrical interface, protection, and thermal management to the power electronics devices. The power package is power dissipation, resulting in a significant challenge to its thermal management. To lower the expenses on wasted power and minimize the need for cooling systems, it is imperative for power converters and their control algorithm to offer exceptional efficiency in converting power. Hence, efficient thermal control and sophisticated thermal design are crucial in developing the power module. In this paper, health monitoring of the power modules is considered in the active thermal control of a two-level power rectifier using a sequence-based model predictive control method. This paper sets the stage for monitoring the thermal response and health of power electronics devices by early diagnosis of degradation. This declines the thermal stress and makes a prompt prediction of failure. This would enhance the reliability of the power converter.",
+    "pdf": "publications/Active_Thermal_Control_of_AC_DC_Power_Converter_Considering.pdf",
+    "link": "https://ieeexplore.ieee.org/abstract/document/10220528",
+    "type": "Conference Paper",
+    "research_id": 8
+  },
+  {
+    "id": 69,
+    "title": "B. Brown, Z. Zhang, “Universal short-circuit and open-circuit fault detection for an inverter,” in International Conference on Power Electronics – ECCE Asia, May 2023, pp. 3230-3238.",
+    "publication_date": "2023-05-22",
+    "abstract": "Short-circuit and open-circuit faults of a power device in an inverter often lead to catastrophic failure of the entire system if not detected and acted upon within a few microseconds. While a significant amount of research has been done on the fast and accurate protection and detection of short-circuit faults, there has been less success corresponding to open-circuit faults. Common downfalls include protection and detection that is application specific, takes longer than a couple of microseconds, and is not cost-effective. This paper proposes a new open-circuit fault protection and detection system integrated with a preexisting desaturation protection short-circuit fault detection circuit. First, the operation principle of the newly proposed scheme is discussed. Second, the design consideration for such a scheme is detailed. Third, the scheme is verified through simulation under a case study. Results show the effectiveness and reliability of the proposed solution.",
+    "pdf": "publications/Universal_Short-Circuit_and_Open-Circuit_Fault_Detection_for_an_Inverter.pdf",
+    "link": "https://ieeexplore.ieee.org/abstract/document/10213883",
+    "type": "Conference Paper",
+    "research_id": 8
+  },
+  {
+    "id": 70,
+    "title": "D. Qin, Z. Zhang, S. K. Dam, C. H. Yang, Z. Dong, R. Chen, H. Bai, and F. Wang, “Intelligent gate drive for cryogenic solid-state circuit breaker with current limitation capability for aviation application,” in Proc. IEEE Applied Power Electronics Conference and Exposition, March 2023, pp. 318-323.",
+    "publication_date": "2023-03-19",
+    "abstract": "To increase the current interrupting capability for the DC solid-state circuit breaker (DC-SSCB), power semiconductors need to possess a higher pulse current. Moreover, for the power electronics protection system, it is also important to enable the system with a fault current limitation capability. Accordingly, this paper aims to design an intelligent gate drive for DC-SSCB, which can operate in cryogenic conditions to increase interrupting capability of the SSCB. Meanwhile, the proposed intelligent gate drive also enables the SSCB to operate in the current limitation mode to limit the overcurrent in the aviation system. The current limitation mode can help the aviation system limit the inrush current during startup and realize fault ride-through for the healthy part when the fault occurs. Finally, test results based on a 200V/150A SSCB with the current limitation mode prototype verify the proposed intelligent gate drive design for SSCB with cryogenic cooling.",
+    "pdf": "publications/Intelligent_Gate_Drive_for_Cryogenic_Solid-state_Circuit_Breaker.pdf",
+    "link": "https://ieeexplore.ieee.org/abstract/document/10131424",
+    "type": "Conference Paper",
+    "research_id": 8
+  },
+  {
+    "id": 71,
+    "title": "D. Zhou, C. H. Yang, S. K. Dam, D. Qin, R. Chen, F. Wang, H. Bai, and Z. Zhang, “High current turn-off of GaN HEMT for solid-state circuit breaker at cryogenic temperatures,” in Proc. IEEE Applied Power Electronics Conference and Exposition, March 2023, pp. 656-660.",
+    "publication_date": "2023-03-19",
+    "abstract": "Gallium Nitride (GaN) high electron mobility transistors (HEMTs) are superior for cryogenically cooled solid-state circuit breakers (SSCBs) in future aircraft applications owing to their low on-resistance and high saturation current. However, during the high current turn-off, it is found that potential voltage and current ringing could happen to damage the device. In this paper, the turn-off failure mechanism of 650V/ 150A GaN bare dies are analyzed, which could be due to the instability of paralleled switching cells in one GaN bare die. A solution is proposed to use an RC snubber to reduce the overlap of vds and id in the turn-off process to avoid the unstable region where the hard-switching trajectory goes through. Experiments are conducted to verify the effectiveness of the proposed solution. With the reduced overlap between vds and id, the GaN HEMT successfully turns off the 550 A objective current.",
+    "pdf": "publications/High_Current_Turn-off_of_GaN_HEMT_for_Solid-.pdf",
+    "link": "https://ieeexplore.ieee.org/abstract/document/10131468",
+    "type": "Conference Paper",
+    "research_id": 5
+  },
+  {
+    "id": 72,
+    "title": "C. H. Yang, D. Zhou, S. K. Dam, D. Qin, R. Chen, F. Wang, H. Bai, and Z. Zhang, “Paralleling 650V/150A a GaN HEMTs for cryogenically cooled solid-state circuit breaker applications,” in Proc. IEEE Applied Power Electronics Conference and Exposition, March 2023, pp. 2520-2525.",
+    "publication_date": "2023-03-19",
+    "abstract": "The significant on-resistance reduction, the faster switching speed, and the capability of being operated at a higher current at cryogenic temperature make Gallium Nitride (GaN) High Electron Mobility Transistors (HEMTs) attractive to cryogenically cooled power electronics applications. Moreover, the positive temperature coefficient of on-resistance makes GaN HEMTs suitable for the parallel operation. In this article, the design of a solid-state circuit breaker (SSCB) with two 650V/150A GaN HEMTs in parallel is presented. The designed SSCB circuit is tested at cryogenic temperature (<-153°C). -The results demonstrate the capability of the SSCB module with paralleled GaN-HEMTs to interrupt high current (1000A) at cryogenic temperature.",
+    "pdf": "publications/Paralleling_650_V_150_A_GaN_HEMTs_for_Cryogenically.pdf",
+    "link": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10131407",
+    "type": "Conference Paper",
+    "research_id": 5
+  },
+  {
+    "id": 73,
+    "title": "S. K. Dam, C. H. Yang, Z. Dong, D. Qin, R. Chen, F. Wang, H. Bai, and Z. Zhang, “Experimental evaluation of cryogenic performances of electronic components for signal isolation in medium voltage power converters,” in Proc. IEEE Applied Power Electronics Conference and Exposition, March 2023, pp. 3196-3200.",
+    "publication_date": "2023-03-19",
+    "abstract": "Operating power converters at cryogenic temperature (<-153°C) can improve efficiency and power density. However, the reliable operation of power converters depends on satisfactory performance of all critical components at cryogenic temperature. While most of the critical components have been studied at cryogenic temperatures, some electronic components necessary for electrical isolation in signal circuits of a medium voltage power converter are yet to be evaluated extensively. This work studies the cryogenic performance of isolated auxiliary power supplies (APS), digital isolators, fiber optics, and isolation amplifiers to identify the well-performing candidates and to investigate the possible reason of failures at cryogenic temperatures. It is observed that some isolated APS with high isolation voltage and isolation amplifiers can work satisfactorily at cryogenic temperatures. The digital isolators are found to be more suitable for cryogenic operation than fiber optic links, even though the latter has better noise immunity.",
+    "pdf": "publications/Experimental_Evaluation_of_Cryogenic_Performances_of_Electronic.pdf",
+    "link": "https://ieeexplore.ieee.org/abstract/document/10131565",
+    "type": "Conference Paper",
+    "research_id": 5
+  },
+  {
+    "id": 43,
+    "title": "R. Singh, P. Paniyil and Z. Zhang, “Transformative role of power electronics: in solving climate emergency,” in IEEE Power Electronics Magazine, vol. 9, no. 2, pp. 39-47, June 2022.",
+    "publication_date": "2022-06-02",
+    "abstract": "Long term shifts in weather patterns and temperature are referred to as climate change. Hotter temperatures, more severe storms, increased droughts, food and water insecurity, and economic disruption, etc. are all due to climate change. According to NASA, “Human activities (primarily the burning of fossil fuels) have fundamentally increased the concentration of greenhouse gases in Earth’s atmosphere, warming the planet” . One of the most difficult challenges faced by humanity is to solve the climate emergency . In addition to the climate emergency, the drive to transition from fossil fuel to renewable energy has taken on a new urgency as a result of Russia’s assault on Ukraine . The recent Glasgow summit left a huge hole in addressing the challenges of climate change . In order to avoid more than 1.5°C of eventual warming, the 2030 goal of greenhouse gas (GHG) emissions must be further reduced by approximately 17–20 bn tones . Daring and transformative economic transformations are required to save humanity. There are fundamental differences between green and clean energy sources. Free fuel and renewable green energy sources such as solar and wind have negligible negative impact on the environment and require minimum use of water in electric power generation. On the other hand, clean energy source such as nuclear energy does not produce GHG emission during electric power generation, but mining, extraction, and long-term radioactive waste storage are threats to the environment, and Uranium is a nonrenewable resource. In addition, nuclear energy requires massive amount of water in electric power generation. Thus, renewable, and free fuel-based solar and wind power that have minimal negative impact on the environment are considered as green sustainable power. From safety (death rate from accidents and pollution) , minimum GHG emissions , negligible use of water in electric power generation , photovoltaics (PV) and wind power provide lowest cost of electric power generation. In 2020, the International Energy Agency (IEA) announced that solar power is now the cheapest form of energy . The cost of electric power generation by photovoltaics has reached as low as $0.0104/kWh . The use of these green sustainable energy sources in place of fossil fuels is the only economical solution to address climate emergency. The objective of this article is to show that power electronics has the potential to achieve the goal of electrifying almost everything by green sustainable energy sources and providing a solution to our shared climate emergency.",
+    "pdf": "publications/Transformative_Role_of_Power_Electronics.pdf",
+    "link": "https://ieeexplore.ieee.org/abstract/document/9800861",
+    "type": "Journal Paper",
+    "research_id": 4
+  }
+]

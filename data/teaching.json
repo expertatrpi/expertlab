@@ -1,0 +1,74 @@
+[
+  {
+    "id": 10,
+    "course_name": "Electrical Energy Systems",
+    "course_code": "ECSE 2110",
+    "semester": "Spring 2026",
+    "link": null,
+    "description": "",
+    "rating": null,
+    "show_description": false,
+    "show_rating": false,
+    "date": "2026-02-24"
+  },
+  {
+    "id": 5,
+    "course_name": "Semiconductor Power Electronics",
+    "course_code": "ECSE 4080",
+    "semester": "Fall 2025",
+    "link": null,
+    "description": "NA",
+    "rating": "5",
+    "show_description": false,
+    "show_rating": false,
+    "date": "2025-08-28"
+  },
+  {
+    "id": 6,
+    "course_name": "Electrical Energy Systems",
+    "course_code": "ECSE 2110",
+    "semester": "Spring 2025",
+    "link": null,
+    "description": "NA",
+    "rating": null,
+    "show_description": false,
+    "show_rating": false,
+    "date": "2025-01-14"
+  },
+  {
+    "id": 7,
+    "course_name": "Semiconductor Power Electronics,",
+    "course_code": "ECSE 4080",
+    "semester": "Fall 2024",
+    "link": null,
+    "description": "NA",
+    "rating": "5",
+    "show_description": false,
+    "show_rating": false,
+    "date": "2024-08-28"
+  },
+  {
+    "id": 8,
+    "course_name": "Advanced Power Electronics",
+    "course_code": "ECSE 6090",
+    "semester": "Spring 2024",
+    "link": null,
+    "description": "NA",
+    "rating": "5",
+    "show_description": false,
+    "show_rating": false,
+    "date": "2024-01-16"
+  },
+  {
+    "id": 9,
+    "course_name": "Semiconductor Power Electronics",
+    "course_code": "ECSE 4080",
+    "semester": "Fall 2023",
+    "link": null,
+    "description": "NA",
+    "rating": "5",
+    "show_description": false,
+    "show_rating": false,
+    "date": "2023-08-28"
+  }
+]

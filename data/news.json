@@ -1,0 +1,56 @@
+[
+  {
+    "id": 11,
+    "title": "ExPERT Team at Rensselaer Showcases Cryogenic GaN HEMT Characterization Platform at IEEE APEC 2026",
+    "intro": "At APEC 2026, Tian Qiu, Dilip Rana, and Purushottam Khadka presented a student project demonstration entitled \"Cryogenic-to-High Dynamic Characterization Platform for Gallium Nitride HEMTs.\"",
+    "publication_date": "2026-04-24T16:25:03+00:00",
+    "author": "Zikpi Israel",
+    "featured_image_1": "news/image1/IMG_6774.png",
+    "featured_video": null
+  },
+  {
+    "id": 10,
+    "title": "Participated in Student Hardware Demonstration at ECCE 2025",
+    "intro": "At ECCE 2025, Dilip Rana and Tian Qiu presented their newly developed platform for evaluating the reliability of power GaN devices at cryogenic temperatures. The exhibition featured a demonstration of the platform’s operation, along with a hardware display for attendees.",
+    "publication_date": "2025-10-21T14:58:33+00:00",
+    "author": "Zikpi Israel",
+    "featured_image_1": "news/image1/IMG_2058.jpg",
+    "featured_video": null
+  },
+  {
+    "id": 8,
+    "title": "Richard and Joan Felak Visit the ExPERT Lab to Engage with Advancements in Electric Power Engineering Research",
+    "intro": "The  ExPERT group @ Rensselaer Polytechnic Institute was honored to welcome Mr. Richard P. Felak and Mrs. Joan C. Felak for a visit to the lab on Thursday, October 18, 2025. During the visit, the team presented recent advances in developing technologies for a more reliable, secure, and resilient electric power grid.\r\n\r\nDr. Zheyu Zhang, the inaugural Richard P. Felak ’66, ’67G and Joan C. Felak Endowed Faculty Fellow in Electric Power Engineering, expressed his deep gratitude for the Felaks’ generosity and continued support of Rensselaer’s mission in advancing electric power engineering education and research. The visit provided an excellent opportunity to share the lab’s ongoing research efforts and to recognize the lasting impact of the Felaks’ philanthropic commitment to fostering innovation and excellence in the field.",
+    "publication_date": "2025-10-18T14:00:51+00:00",
+    "author": "ZIkpi Israel",
+    "featured_image_1": "news/image1/Picture1.jpg",
+    "featured_video": null
+  },
+  {
+    "id": 7,
+    "title": "Congratulations to Saumil Shivdikar on His Successful Master’s Thesis Defense",
+    "intro": "The Exponential Energy Power Electronics Research Team (ExPERT) at Rensselaer Polytechnic Institute extends its sincere congratulations to Mr. Saumil Shivdikar on the successful defense of his Master’s thesis, titled “Testing Platform and Methodology for Static Characterization of GaN HEMT Power Semiconductor Devices,” in May 2025.",
+    "publication_date": "2025-05-12T13:59:00+00:00",
+    "author": "ZIkpi Israel",
+    "featured_image_1": "news/image1/Shivdikar_Saumil_Chandrakant.jpg",
+    "featured_video": null
+  },
+  {
+    "id": 5,
+    "title": "Rensselaer Team Recognized for Outstanding Presentation at APEC 2025",
+    "intro": "Mr. Purushottam Khadka and the team from RPI received the Outstanding Presentation Award in Dialogue Session D08: Power Devices and Components II at APEC 2025 in Atlanta. Their paper compared the static characteristics of multiple GaN HEMTs across a wide temperature range (50 K-400 K), also accounting for statistical variation.",
+    "publication_date": "2025-03-21T13:38:47+00:00",
+    "author": "ZIkpi Israel",
+    "featured_image_1": "news/image1/Image_1.jpeg",
+    "featured_video": null
+  },
+  {
+    "id": 6,
+    "title": "ExPERT Team Showcases GaN HEMT Characterization Hardware at ECCE 2024",
+    "intro": "The ExPERT team proudly participated in ECCE 2024, where members demonstrated their student project titled “Characterization Automation for GaN HEMTs from 50K to 400K for Space Power.” This platform offered an excellent opportunity to showcase the team’s innovative hardware and experimental advancements in wide bandgap device testing. Team members Tian Qiu and Purushottam Khadka were recognized with a student travel grant in support of their contribution and successful demonstration.",
+    "publication_date": "2024-10-20T13:50:18+00:00",
+    "author": "ZIkpi Israel",
+    "featured_image_1": "news/image1/IEEE_ECCE_2024_Phoenix_AZ_2mjkoZI.jpeg",
+    "featured_video": "news/video/ECCE_student_demo_qbXUdwB.mp4"
+  }
+]
